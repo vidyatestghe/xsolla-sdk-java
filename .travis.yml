@@ -1,8 +1,5 @@
 language: java
 script: cd sdk ; mvn test
-
-
-
 jdk:
   - oraclejdk7
   - openjdk7
