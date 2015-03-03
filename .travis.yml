@@ -5,12 +5,19 @@ jdk:
   - openjdk7
   - oraclejdk8
 env:
- secure: Nuf9rEdk9buZFYjbQWfE2YgGZnzppsWXSsG+aUZXXX5Y1GOM+J64Cow7WyoP0ntAuyA/niBl63kaEs8SY1uFEUEq2aUUhWaZHA2difxT0HSu1HpXhwqJSZIiGEW/BSJ171uJ7ZiJoNJ1ygXIxslaGwNvPVRhdfyNwnP7ehdJWgSbzRcnTj4JscF0sv5ansKFx5Mhz4qmKFVRI5Ns7cFLa1R4Ut8U016BPeSaYi6xT91jtrCuGx4yAeCE0w8iL6QlUkHswVkROfnAUac/VHbKEpR7Uts+8RqEgXQt5i4GZMl50bkXki/JrhciXNeJB3DVcdEpg1zIPHQlve1JDYcUNg==
+  matrix:
+    - FOO=bar    
+  global:
+    secure: Nuf9rEdk9buZFYjbQWfE2YgGZnzppsWXSsG+aUZXXX5Y1GOM+J64Cow7WyoP0ntAuyA/niBl63kaEs8SY1uFEUEq2aUUhWaZHA2difxT0HSu1HpXhwqJSZIiGEW/BSJ171uJ7ZiJoNJ1ygXIxslaGwNvPVRhdfyNwnP7ehdJWgSbzRcnTj4JscF0sv5ansKFx5Mhz4qmKFVRI5Ns7cFLa1R4Ut8U016BPeSaYi6xT91jtrCuGx4yAeCE0w8iL6QlUkHswVkROfnAUac/VHbKEpR7Uts+8RqEgXQt5i4GZMl50bkXki/JrhciXNeJB3DVcdEpg1zIPHQlve1JDYcUNg==
+
+
+matrix:
+  exclude:
+    - jdk: openjdk7
+    - env: FOO=bar
 script:
  - echo $Foo
-matrix:
-  allow_failures:
-    - jdk: oraclejdk8
+
 notifications:
     email:
         - vidya@shippable.com
