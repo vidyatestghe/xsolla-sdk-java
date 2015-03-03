@@ -14,13 +14,10 @@ env:
     - BAR=foo
   global:
     - secure: esLv52+lPwNKtJz0Kwdk4tPWz3JGkhVafYXTwUa2Y0nRAwLxejG50WFQ2of3i5B0KHbnklyWn4xumti7DSQg7lk5XelE+qtMANH35SQ4kHgcp7KxEiCN63g7HrvIT6yP0lMuxgO4Efjtlo1aI0wHO5o/Z1BJOSImk/BzepGcgk5D8/2b2drFjJKqauyc8j9kFBqtsD2m9zOAr7zS1HL9D0/T9buQMOot0BwD34KpIYVNBrX/334YVNCwZstVMwYJ9doHBEkgCTkuBxTr8Cb8BIpH/t+Astwv4Pl0a9OrzPT3K6rJJSwSh8/R/cM+ucEYyKYPeUBJvKZOoh/tvLaM1Q==
-    
 
 matrix:
   exclude:
     - jdk: openjdk7
     - env: FOO=bar
-
- 
 
 cache: true
