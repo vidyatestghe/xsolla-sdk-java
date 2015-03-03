@@ -1,5 +1,8 @@
 language: java
-script: cd sdk ; mvn test
+script: 
+  - cd sdk ; mvn test
+  - echo $test
+  
 jdk:
   - oraclejdk7
   - openjdk7
@@ -16,8 +19,8 @@ matrix:
   exclude:
     - jdk: openjdk7
     - env: FOO=bar
-script:
- - echo $test
+
+ 
 
 notifications:
     email:
