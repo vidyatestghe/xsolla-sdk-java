@@ -7,9 +7,11 @@ jdk:
   - oraclejdk7
   - openjdk7
   - oraclejdk8
+
 env:
   matrix:
-    - FOO=bar    
+    - FOO=bar  
+    - BAR=foo
   global:
     - secure: esLv52+lPwNKtJz0Kwdk4tPWz3JGkhVafYXTwUa2Y0nRAwLxejG50WFQ2of3i5B0KHbnklyWn4xumti7DSQg7lk5XelE+qtMANH35SQ4kHgcp7KxEiCN63g7HrvIT6yP0lMuxgO4Efjtlo1aI0wHO5o/Z1BJOSImk/BzepGcgk5D8/2b2drFjJKqauyc8j9kFBqtsD2m9zOAr7zS1HL9D0/T9buQMOot0BwD34KpIYVNBrX/334YVNCwZstVMwYJ9doHBEkgCTkuBxTr8Cb8BIpH/t+Astwv4Pl0a9OrzPT3K6rJJSwSh8/R/cM+ucEYyKYPeUBJvKZOoh/tvLaM1Q==
     #secure: Nuf9rEdk9buZFYjbQWfE2YgGZnzppsWXSsG+aUZXXX5Y1GOM+J64Cow7WyoP0ntAuyA/niBl63kaEs8SY1uFEUEq2aUUhWaZHA2difxT0HSu1HpXhwqJSZIiGEW/BSJ171uJ7ZiJoNJ1ygXIxslaGwNvPVRhdfyNwnP7ehdJWgSbzRcnTj4JscF0sv5ansKFx5Mhz4qmKFVRI5Ns7cFLa1R4Ut8U016BPeSaYi6xT91jtrCuGx4yAeCE0w8iL6QlUkHswVkROfnAUac/VHbKEpR7Uts+8RqEgXQt5i4GZMl50bkXki/JrhciXNeJB3DVcdEpg1zIPHQlve1JDYcUNg==
