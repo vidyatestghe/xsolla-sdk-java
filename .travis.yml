@@ -24,10 +24,4 @@ matrix:
 
  
 
-notifications:
-    email:
-        - vidya@shippable.com
-        - vidyac.raghav@gmail.com
-#build_image: shippable/minv2:beta
-
 cache: true
