@@ -13,7 +13,6 @@ env:
   matrix:
     - Foo=bar  
     - BAR=foo
-  global:
     - secure: cdyh5oLbFo+Cl59JP3IsEP5Z8DY8qWrC5wtdYSQiYXlzwuhJ29jeaiZzXeTEGhmZVvXxuMW92YaGVygAeN9//jKq/yitrcOZi0qrSA4DJlywUTWOBzfb0s+xYTehuKx7PDWPA1NkvBS+g+Z4hbstMIje+ET7oA/tqfGr7gOjZlKGukG+5lsepAzL8U1rs+E9ynGxnrNxemd2DL2lFsbo8Y/Fhp5ovYQH/P4SnEZ+oABgWmf7aTvaeplkUCLak+Lb9iS1piZ23824hlKrxlCsGxlE3JbyubzaodIahiA6MrSwg38RaCjk9fTNAUSYQ/VG1AxvfZQK1xWm6N/XTQDbrQ==
     - secure: RUnIRA0+NMH16dZ7YScOe8DeIWP6Tg5/987l05Rytd3k3KYBYNFN8n9QrsSoxKrFaCvKR0W/FuR0oereIdvDxN6DkuvFUaytrILn8aUMgslhdyn9aXgF2mmFzUUsiPKozbing5zTP1w7kWFPwBObReA2X+9IahAohyCgQtHFulqrtKvhS5LxBEDzWoKWFOtnYrlwv/HCm0/vT750pMqSZNqx9ui5W7M/HWXHLKPLpPh5iT8dEhBKmdB4YPv24hsrwkH2Qm08zCpqE9qu8C81QS1gDcmy56WBvZ38++vH4boAN1qhRPsRKWeiDIYFqFK/VLfwLsss6YsShGFZX13kbQ==
     
