@@ -15,11 +15,10 @@ env:
     - BAR=foo
   global:
     - secure: esLv52+lPwNKtJz0Kwdk4tPWz3JGkhVafYXTwUa2Y0nRAwLxejG50WFQ2of3i5B0KHbnklyWn4xumti7DSQg7lk5XelE+qtMANH35SQ4kHgcp7KxEiCN63g7HrvIT6yP0lMuxgO4Efjtlo1aI0wHO5o/Z1BJOSImk/BzepGcgk5D8/2b2drFjJKqauyc8j9kFBqtsD2m9zOAr7zS1HL9D0/T9buQMOot0BwD34KpIYVNBrX/334YVNCwZstVMwYJ9doHBEkgCTkuBxTr8Cb8BIpH/t+Astwv4Pl0a9OrzPT3K6rJJSwSh8/R/cM+ucEYyKYPeUBJvKZOoh/tvLaM1Q==
-    - secure: hCC82FJGXanM1tBP3RFOLqZ0GEJ1Zyv3M7zXaRG/b79wwTptEM31ObxvJYbwAuD2e9Wytl7r+DZ+v0hYvZNyUwCtr8GPDVJqPJJ1Vmt7qVZ3S2izxolHmy+HIV7vElAXxn2aCcD3RnQT0OHVbz8OQ17h3a9NFfCQwRkIchHXZHl85ddhXPc+vsNPKvUhLg9iAR22z27wcpeG6i26/I9yzkKshjyb9fMcgvxOcIwPL7aUOn5bCNPx25wAakQLyd5hQohczcY3c91mzoI8
-
+    - secure: YRUhFyqf8wFU0rXcUlQQi5XV3ZQWsGhYDFTcUzw7Kmj9uZaUVKoAO0YdYLJJB3ANzJekBARK0ymy6b3ghKahaj+C7KGQP2DfQMzrXDXmC/kiAl1k116TW981beWq8KFHECLOLdF+QzKyQ1obLtHNRGOUTSt+IdA0Yal/lnAzthkSX+xYxvblGseGGn0++jHgdKxb8Fdtj2lsvoaO1KpOgo9lQtcj0A0KHfkA6yiFCvr8D7J2sFelRM91gXWtESROox3Ra7kJvcdtnFQmhkZn+8OPgby/hCEjstpbVXxp2pR8SdX0rckWHnsEYqX0GDBQxu4iBqOzoc6AJ9QElZUOGw==
 matrix:
   exclude:
     - jdk: openjdk7
-    - env: BAR=foo
+      env: BAR=foo
 
 #cache: true
