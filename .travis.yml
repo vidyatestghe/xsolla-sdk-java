@@ -10,12 +10,10 @@ jdk:
   - oraclejdk8
 
 env:
-  matrix:
-    - Foo=bar  
-    - BAR=foo
-    - secure: cdyh5oLbFo+Cl59JP3IsEP5Z8DY8qWrC5wtdYSQiYXlzwuhJ29jeaiZzXeTEGhmZVvXxuMW92YaGVygAeN9//jKq/yitrcOZi0qrSA4DJlywUTWOBzfb0s+xYTehuKx7PDWPA1NkvBS+g+Z4hbstMIje+ET7oA/tqfGr7gOjZlKGukG+5lsepAzL8U1rs+E9ynGxnrNxemd2DL2lFsbo8Y/Fhp5ovYQH/P4SnEZ+oABgWmf7aTvaeplkUCLak+Lb9iS1piZ23824hlKrxlCsGxlE3JbyubzaodIahiA6MrSwg38RaCjk9fTNAUSYQ/VG1AxvfZQK1xWm6N/XTQDbrQ==
-    - secure: RUnIRA0+NMH16dZ7YScOe8DeIWP6Tg5/987l05Rytd3k3KYBYNFN8n9QrsSoxKrFaCvKR0W/FuR0oereIdvDxN6DkuvFUaytrILn8aUMgslhdyn9aXgF2mmFzUUsiPKozbing5zTP1w7kWFPwBObReA2X+9IahAohyCgQtHFulqrtKvhS5LxBEDzWoKWFOtnYrlwv/HCm0/vT750pMqSZNqx9ui5W7M/HWXHLKPLpPh5iT8dEhBKmdB4YPv24hsrwkH2Qm08zCpqE9qu8C81QS1gDcmy56WBvZ38++vH4boAN1qhRPsRKWeiDIYFqFK/VLfwLsss6YsShGFZX13kbQ==
-    
+  global:
+    - secure: AY/WnvjknqI6llhXtbbkkpr2OX0mHm8XeabEUHvW/Pts1nl6518Hqcb4nokJWQag/9/+9wFoFL3JKDNWUkJRzs+uYHnDZuKaklXtrGz3OxzYRZpyFkxN3tjov5eVmRzPREQnCPqVCSxkIszKpJXiFxZg7XnZNS4E5AQ52zb0NjcxKb9FvdyK5TrJaumQj+NLJRZypjbFJAWOnf31gag7uuw2/36MhDCcxeCkce55RNg1UR4BlnbxuIoqYGOobx4ikLFMT4I6yARUjNbJ9itLpuhLfYrg3A4psuxvLwr2LVn8gzOGN8yEH/pAzJtxsVAocVgaQsLhAVXzIl1Z+gtP5A==
+    - secure: Zf1l6kWkbskP1Qa119J8zWgUHv92Pyer7q4z4PU0Xy/I7KsJnjAhQzMDEd32J+M+naj9zj8rJthLN/0/CZEIy0D1IkoHSf3Spr4uKv459Oa67BTAaPPO/2VMR+HcH1h2denXVD8PPpesgcPJi7Xe5pbV2TdfBRc63enZrFfX29WBa02GOi+fJ9QWla+j4EMm/CU3rIkQF5nP2LuNiABtrEs90drmqbMph61Ri3hJ9N7YnvAqOV5+RKi1PWP2mBGK4Q3PJUJRv5dDvlZHDy6bClROz2/R687jAbUgRrPntwG3SjA/xNUVJ+rpKzKo6HCtoOZREyudcZmsE5JFDiv5Zg==
+
 matrix:
   exclude:
     - jdk: openjdk7
