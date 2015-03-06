@@ -11,12 +11,13 @@ jdk:
 
 env:
   global:
+    - Foo=bar
     - secure: AY/WnvjknqI6llhXtbbkkpr2OX0mHm8XeabEUHvW/Pts1nl6518Hqcb4nokJWQag/9/+9wFoFL3JKDNWUkJRzs+uYHnDZuKaklXtrGz3OxzYRZpyFkxN3tjov5eVmRzPREQnCPqVCSxkIszKpJXiFxZg7XnZNS4E5AQ52zb0NjcxKb9FvdyK5TrJaumQj+NLJRZypjbFJAWOnf31gag7uuw2/36MhDCcxeCkce55RNg1UR4BlnbxuIoqYGOobx4ikLFMT4I6yARUjNbJ9itLpuhLfYrg3A4psuxvLwr2LVn8gzOGN8yEH/pAzJtxsVAocVgaQsLhAVXzIl1Z+gtP5A==
    # - secure: Zf1l6kWkbskP1Qa119J8zWgUHv92Pyer7q4z4PU0Xy/I7KsJnjAhQzMDEd32J+M+naj9zj8rJthLN/0/CZEIy0D1IkoHSf3Spr4uKv459Oa67BTAaPPO/2VMR+HcH1h2denXVD8PPpesgcPJi7Xe5pbV2TdfBRc63enZrFfX29WBa02GOi+fJ9QWla+j4EMm/CU3rIkQF5nP2LuNiABtrEs90drmqbMph61Ri3hJ9N7YnvAqOV5+RKi1PWP2mBGK4Q3PJUJRv5dDvlZHDy6bClROz2/R687jAbUgRrPntwG3SjA/xNUVJ+rpKzKo6HCtoOZREyudcZmsE5JFDiv5Zg==
 
 matrix:
   exclude:
     - jdk: openjdk7
-      env: test=name
+      env: Foo=bar
 
 #cache: true
