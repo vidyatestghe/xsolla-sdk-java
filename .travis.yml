@@ -17,5 +17,9 @@ matrix:
   include:
     - jdk: openjdk7
       env: test=name
+    
+  exclude:
+    - jdk: oraclejdk7
+      
 
 #cache: true
