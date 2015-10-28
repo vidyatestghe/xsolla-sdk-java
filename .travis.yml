@@ -16,6 +16,6 @@ env:
 matrix:
   exclude:
     - jdk: openjdk7
-      env: Foo=bar
+      #env: Foo=bar
 
 #cache: true
