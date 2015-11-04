@@ -1,6 +1,5 @@
 language: java
 
-
 script: 
   - cd sdk ; mvn test
   - echo $test
