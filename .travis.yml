@@ -1,6 +1,5 @@
 language: java
-
-
+after_script: echo $Foo
 script: 
   - cd sdk ; mvn test
   - echo $test
@@ -25,7 +24,8 @@ matrix:
     
   exclude:
     - jdk: oraclejdk7
-    
+  
+before_Script: echo "DOCKER_COMPOSE_VERSION"
       
 
 #cache: true
