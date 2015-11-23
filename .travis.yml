@@ -8,7 +8,7 @@ script:
 jdk:
   - oraclejdk7
   #- openjdk7
-  - oraclejdk8
+ # - oraclejdk8
 
 env:
  global:
@@ -21,10 +21,11 @@ env:
 matrix:
   include:
     - jdk: openjdk7
-      #env: test=name
+      env: test=name
     
   exclude:
     - jdk: oraclejdk7
+    
       
 
 #cache: true
