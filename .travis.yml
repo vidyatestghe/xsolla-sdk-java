@@ -25,7 +25,7 @@ matrix:
   exclude:
     - jdk: oraclejdk7
   
-before_Script: echo "DOCKER_COMPOSE_VERSION"
+before_script: echo "DOCKER_COMPOSE_VERSION"
       
 
 #cache: true
