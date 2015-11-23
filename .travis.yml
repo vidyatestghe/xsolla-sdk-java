@@ -23,9 +23,9 @@ matrix:
       env: test=name
     
   exclude:
-    - jdk: oraclejdk7
+    - jdk: oraclejdk8
   
-before_script: echo "DOCKER_COMPOSE_VERSION"
+before_script: echo $DOCKER_COMPOSE_VERSION
       
 
 #cache: true
